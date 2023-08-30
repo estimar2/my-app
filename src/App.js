@@ -1,5 +1,5 @@
-import React from 'react';
-import './styles.css'
+import React from "react";
+import "./styles.css";
 
 //JSX : javascript XML
 //역할 : javascript 가 html을 제어해요.
@@ -17,14 +17,18 @@ import './styles.css'
 //React는 언어가 아님
 //Javascript의 Library
 
+//네트워크(인터넷)에 있는 데이터를 가져와서 사용(데이터베이스) JSON
+//간단하게 화면에 출력(뷰)
+
 function App() {
-  return ( //자판기라고 보면 return을 누르면 음료수가 나오는 것을 말함
+  return (
+    //자판기라고 보면 return을 누르면 음료수가 나오는 것을 말함
     <>
-    <h1> Hello World!! </h1>
-    <p>REATCT</p>
-    
-    <button>INCREMENT</button>
-    <button>DECRENENT</button>
+      <h1> Hello World!! </h1>
+      <p>REATCT</p>
+
+      <button>INCREMENT</button>
+      <button>DECRENENT</button>
     </>
   );
 }
